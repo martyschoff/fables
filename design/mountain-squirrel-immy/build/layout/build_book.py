@@ -197,7 +197,8 @@ def page(c, p, ox, oy, S, SC, PO, D):
     elif p == 30:
         dev_header(c, ox, oy, "Honoring God\u2019s Good Design")
         c.setFont("Times-Bold", 24); c.setFillColor(INK); c.drawCentredString(ox + TRIM / 2, oy + TRIM - SAFE - 40, dtitle)
-        fit(c, ox, oy, [(strip_md(x), "Times-Italic") for x in dpre] + [("Scripture Reading", "Times-Bold")]
+        fit(c, ox, oy, [(f"A family devotional for {TITLE}: {SUB} \u00b7 \u00a9 {HOLDER}", "Times-Italic")]  # DEVOTIONAL.md status line is internal, not printed
+             + [("Scripture Reading", "Times-Bold")]
             + [(strip_md(x).lstrip("- "), "Times-Roman") for x in sec["Scripture Reading"]]
             + [("The Big Idea", "Times-Bold")] + [(x, "Times-Italic") for x in sec["The Big Idea"]], TRIM - SAFE - 60, start=15)
     elif p == 31:
