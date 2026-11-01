@@ -1,4 +1,4 @@
-APPROVED by Martin 2026-11-01 ~6:45 AM ET (t444u via kimberly3); Message verbatim filed t434u; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t425u; revised t434u/t437u)
+APPROVED by Martin 2026-11-01 ~6:45 AM ET (t444u via kimberly3); Message verbatim filed t434u; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t425u; revised t434u/t437u); series Stories My Mother Read Me cover-bottom t451u/t454u
 
 # The Missing Church Tulips — Design Proposal
 
@@ -81,6 +81,14 @@ Devotional verse wording differs; see DESIGN-devotional.md. Do not silently harm
 - Do not yet create files, generate illustrations, typeset pages, reproduce the reference photo, install anything, publish, or order copies.
 - Required copyright holder, exactly: **Martin Schoffstall**. Publication year and illustrator credit remain placeholders until approved.
 
+
+## Series branding (Martin t451u / t454u)
+- Series: **Stories My Mother Read Me**.
+- Each book keeps its own title (*The Missing Church Tulips*).
+- **Cover:** book title primary; series name **Stories My Mother Read Me** at the **bottom of the cover**.
+- Title page and spine: series branding as appropriate.
+- © Martin Schoffstall.
+
 ## 9. Open questions with defaults
 - **Age band:** default ages 4–8, shared read-aloud.
 - **Length:** default approximately 500 words of narrative, plus moral, credits, and prompts; edit after Martin reviews.
@@ -102,3 +110,7 @@ Use DEVOTIONAL.md as the content source and DESIGN-devotional.md as the layout s
 | pp34–35, facing spread | DEVOTIONAL.md: complete verbatim Message (Martin t434u); follow DESIGN-devotional.md. Do not print any placeholder. | Restrained marginal watercolor; ample uninterrupted reading space. |
 | p36, closing page | DEVOTIONAL.md: Family Discussion Questions and Closing Prayer; follow DESIGN-devotional.md. | Small closing flower or bulb vignette; generous space around the prayer. |
 
+
+## 11. Series (patch, Martin t451u/t454u)
+- Series: **Stories My Mother Read Me** (Fern and the High Grapes; The Missing Church Tulips; Mountain/Immy). See /workspace/mountain-squirrel-immy-design/SERIES.md.
+- Cover: *The Missing Church Tulips* is the primary title; the series line "Stories My Mother Read Me" sits at the BOTTOM of the cover. Series name also on the title page and spine as appropriate. © Martin Schoffstall.

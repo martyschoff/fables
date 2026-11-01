@@ -31,3 +31,4 @@
 - [V] tower2 rung 1 was skipped this turn: the last two full t2 requests hung (15 and 8 minutes), and the user interrupted the probes this turn.
 - [V-Martin] Devotional Message verbatim filed 2026-11-01 via kimberly3 (t434u full text): Flowers, Foiled Plans, and a Patient Father — replaced prior placeholder in DEVOTIONAL.md. Do not print any former placeholder text.
 - [V-Martin] DESIGN APPROVED t444u 2026-11-01 via kimberly3: proceed Message file + basicCoder layout on build branch (never main). Open Qs do not block layout.
+- [V-Martin] Series Stories My Mother Read Me: series line at **bottom of covers** for all three books; individual title primary (t454u). Tulips build already shows series on cover @ f4e56f1 pending DESIGN patch fold-in.
