@@ -7,6 +7,7 @@ Martin t444u APPROVED the design. Layout uses the Fern pipeline (reportlab). Und
 - tulips-reading-spreads.pdf (19 sheets), tulips-print-interior-8.75sq-bleed.pdf, tulips-cover-front-8.75sq-bleed.pdf
 - preview/sheet-01..19.png, preview/cover-1.png
 
+Series: Stories My Mother Read Me (../SERIES.md, Martin t451u/t454u): BOTTOM line of the cover, above the title on the title page, and in the p2 copyright line.
 Text sources: ../DESIGN.md page table (verbatim), ../DEVOTIONAL.md (verbatim, Martin t434u). BSB checks: Ex 20:15 (Mr. Davis, p21) and Prov 15:3 (Mrs. Davis, p23) are asserted against ../SCRIPTURE.md.
 Copyright © Martin Schoffstall. Art is PLACEHOLDER: drop art/pNN.(png|jpg), art/cover.*, art/CREDITS.md ("Illustrator: NAME") and rebuild.
 references/home-church-hero-1.jpg is a private reference only and is never placed in the book.

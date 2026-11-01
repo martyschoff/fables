@@ -189,9 +189,9 @@ def cover(out):
     if f: c.drawImage(str(f), 0, 0, TRIM + 2 * BLEED, TRIM + 2 * BLEED)
     else:
         placeholder(c, 3, BLEED, BLEED); MISSING.insert(0, "cover")
-    y = text_block(c, BLEED, BLEED, SERIES, 18, top=TRIM - 0.6 * inch, font="Times-Italic")
-    text_block(c, BLEED, BLEED, TITLE, 38, top=y - 8, font="Times-Bold")
-    text_block(c, BLEED, BLEED, HOLDER, 18)
+    text_block(c, BLEED, BLEED, TITLE, 38, top=TRIM - 0.9 * inch, font="Times-Bold")
+    y = text_block(c, BLEED, BLEED, SERIES, 18, font="Times-Italic")   # series = lowest line, BOTTOM of cover (Martin t454u)
+    text_block(c, BLEED, BLEED, HOLDER, 20, top=(y - BLEED) + (18 * 1.3 + 20) + 8 + (20 * 1.3 + 20))   # author sits above series
     marks(c); c.save()
 
 def build():
