@@ -1,4 +1,4 @@
-DRAFT, NOT YET REVIEWED; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t425u; revised t434u/t437u; Message verbatim filed 2026-11-01)
+APPROVED by Martin 2026-11-01 ~6:45 AM ET (t444u via kimberly3); Message verbatim filed t434u; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t425u; revised t434u/t437u)
 
 # The Missing Church Tulips — Design Proposal
 

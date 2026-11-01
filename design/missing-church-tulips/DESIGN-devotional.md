@@ -1,4 +1,4 @@
-DRAFT, NOT YET REVIEWED; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t434u); designer will assemble
+APPROVED by Martin 2026-11-01 ~6:45 AM ET (t444u via kimberly3); Message verbatim filed; not installed; layout gated to basicCoder build branch only
 
 # The Missing Church Tulips — Devotional End-Matter Design
 
