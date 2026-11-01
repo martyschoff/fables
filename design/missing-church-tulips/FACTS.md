@@ -18,3 +18,14 @@
 - [V] BSB pages state the text is dedicated to the public domain.
 ## Format parity
 - [V] Same lane as /workspace/fox-grapes-kids-design/DESIGN.md: 9 numbered sections, 32-page interior, spread table, 8.5-inch square print + PDF, all production gated on Martin.
+## Devotional end matter (Martin t434u, 2026-11-01 ~6:38 AM ET)
+- [V-Martin] Title: "Devotional: The Gift That Honors God". Big Idea, three discussion questions and Closing Prayer as in DEVOTIONAL.md (the questions are worded as dispatched; the prayer is verbatim).
+- [V-Martin] Devotional verse wording (Martin's, not BSB): Proverbs 15:3 "The eyes of the Lord are everywhere, keeping watch on the wicked and the good." Galatians 6:7 "Do not be deceived: God cannot be mocked. A man reaps what he sows." This matches NIV wording [U, not fetched]; it differs from the BSB texts in SCRIPTURE.md used for the main book.
+- [U] "The Message: Flowers, Foiled Plans, and a Patient Father": full verbatim body was summarized by kimberly3; not found under /workspace or agent-data (rg, this turn). DEVOTIONAL.md holds a placeholder with the summary beats only.
+- [V] The page plan in DESIGN.md (12e08b6) ends at p32 with the discussion prompts; the devotional needs added end-matter pages.
+- [V-dispatch] Do not build a memory-card activity or a parent object-lesson guide.
+## In-story woman speaker (Martin t437u, 2026-11-01 ~6:40 AM ET)
+- [V-Martin] A woman in the story (Mrs. Davis or another natural fit) must quote at least one Bible verse aloud in the story. Align with the BSB verse plan (Ex 20:15 currently spoken by Mr. Davis on p21; other four BSB verses available in SCRIPTURE.md).
+- [V] Current DESIGN.md has two women: Mom (Leo's mother) and no Mrs. Davis. Mrs. Davis would be new.
+- [V] Current DESIGN.md ends with a stray broken fragment and a duplicate "Mr. Davis's role" bullet (last 2 lines); these should be dropped in the revision.
+- [V] tower2 rung 1 was skipped this turn: the last two full t2 requests hung (15 and 8 minutes), and the user interrupted the probes this turn.
