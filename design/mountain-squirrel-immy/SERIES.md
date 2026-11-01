@@ -6,7 +6,7 @@
 |---|---|---|---|---|
 | 1 | Fern and the High Grapes | Phaedrus, Gutenberg 25512 | /workspace/fox-grapes-kids-design/ | design approved t424u; with basicCoder |
 | 2 | The Missing Church Tulips | Martin's original story (St Thomas UCC, Linglestown PA) | /workspace/missing-church-tulips-design/ ; design/missing-church-tulips | DRAFT design |
-| 3 | Mountain/Immy title (TBD lock; see DESIGN.md) | Emerson, "Fable" / "The Mountain and the Squirrel" | /workspace/mountain-squirrel-immy-design/ ; design/mountain-squirrel-immy | DRAFT design |
+| 3 | Immy and Hunter Mountain: A Catskills Fable | Emerson, "Fable" / "The Mountain and the Squirrel" | /workspace/mountain-squirrel-immy-design/ ; design/mountain-squirrel-immy | APPROVED t461u (Hunter lock t464u; devotion required) |
 
 ## Note for basicCoder (Fern rebuild, when designer requests it)
 - Add "Stories My Mother Read Me" as a line at the BOTTOM of Fern's cover (title primary above), plus title page and spine as appropriate.

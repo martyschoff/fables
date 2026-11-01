@@ -20,14 +20,12 @@
 - [V-Martin t445u] Fables ladder: local servers or OpenAI only. tower2 rung 1 first, then Codex (gpt-6.1-sol high; luna, astra as needed). No other cloud rungs.
 ## Mountain name (Martin t446u: the mountain must have a spoken name)
 - [V] Spellings/elevations (Wikipedia "Catskill High Peaks", catskillhiker.org peak checklist, peakbagger Catskill 3500 list, catskill3500club.org; WebSearch 2026-11-01 ~6:50 AM ET): Slide Mountain 4,180 ft, #1, highest in the Catskills (Ulster Co. high point); Hunter Mountain 4,040 ft, #2 (Greene Co. high point); Peekamoose Mountain 3,843 ft (also "Peak O' Moose"); Panther Mountain 3,720 ft; Kaaterskill High Peak 3,655 ft; Twin Mountain 3,640 ft; Indian Head 3,573 ft.
-- [V-executor recommendation] Primary: **Slide Mountain** ("Slide"): the real highest Catskill peak, so its pride in being biggest is fact-based; short, friendly one-syllable name for read-aloud; Slide-Cornell-Wittenberg Trail and Catskill Park give an authentic American setting.
-- Alternate 1: **Peekamoose** — playful sound kids enjoy; [V] 11th highest, so its boasting is gently funnier.
-- Alternate 2: **Hunter Mountain** — #2 peak, but "Hunter" carries a predator connotation next to a squirrel and is a well-known ski resort brand [U]; weaker fit.
+- [V-Martin t464u] Mountain name LOCKED: **Hunter Mountain** (#2 Catskill peak, 4,040 ft). Title LOCKED: *Immy and Hunter Mountain: A Catskills Fable*. Slide Mountain and Peekamoose dropped (historical only).
 - Avoid: **Indian Head** (named for a profile resembling a Native American face, per catskill3500club.org extract; a culturally sensitive name for a proud/foolish character).
 - [U] Personifying a real peak: no rights issue expected for a geographic name; still UNVERIFIED.
-- Open Q: Martin locks the final name; default Slide Mountain.
 ## Poem page (Martin t447u)
 - [V-Martin] End of book: a dedicated page (or spread) with Emerson's COMPLETE poem verbatim (all 19 lines in source/emerson-mountain-squirrel.txt, which keeps "Bun" as Emerson wrote it), credited "Ralph Waldo Emerson". Book text/art © Martin Schoffstall. Scripture BSB may precede the poem or sit with end matter (open Q); both are required.
 ## Series (Martin t451u)
 - [V-Martin] Series title: **Stories My Mother Read Me** (Fern and the High Grapes; The Missing Church Tulips; this book). Series branding on cover/title page/spine; book keeps its own title. See SERIES.md.
 - [V-Martin t454u] Series line goes at the BOTTOM of the cover; book title primary above. Applies to all three books.
+- [V-Martin t461u] DESIGN APPROVED; end devotion REQUIRED, after the Emerson poem page; faded illustration behind devotion text; Immy she/her; 32 pages; ages 4-8.
