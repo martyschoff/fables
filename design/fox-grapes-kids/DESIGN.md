@@ -137,6 +137,6 @@ Use larger/heavier type directly on the page/art over a quiet low-contrast clear
 - Title "Fern and the High Grapes" only; no subtitle and no other "Fern..." line on the cover.
 - NO author name (Martin Schoffstall) on the front cover; author name may remain on the title/copyright page.
 - Title 50% bigger than current cover title: current build 36 pt Times-Bold → 54 pt (provisional, fit within safe area).
-- Series "Stories My Mother Read Me": LOWER on the cover, closer to the bottom safe margin; GOLD; 20% bigger than current 18 pt → about 22 pt (21.6); NO white halo, outline, cream glow, or panel box behind the lettering.
+- Series "Stories My Mother Read Me": LOWER on the cover, closer to the bottom safe margin; GOLD; 20% bigger than t493u cover series 23 pt → 28 pt (delivered JPEG); DESIGN previously said 18→~22 pt — aligned to delivered 28 pt; NO white halo, outline, cream glow, or panel box behind the lettering.
 - Still no "A new retelling" on the cover (t489u). "for Immy" painted in cover art stays.
 - COVER ONLY: page 5 and interior text are already OK; do not change them. No full book rebuild; preview = front cover JPEG only via basicCoder.
