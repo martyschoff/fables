@@ -1,4 +1,4 @@
-APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); t493u: no comic bubbles on story text, larger/heavier body type; previews = front cover + p5 JPEG only via basicCoder; DESIGN docs updated t509u; t502u: COVER ONLY rerender rules (front cover JPEG preview only via basicCoder; no full rebuild); t509u: cover series line BLACK (supersedes gold for cover series only); not installed; produced by rung 2 Codex gpt-6.1-sol high; never main
+APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); t493u: no comic bubbles on story text, larger/heavier body type; previews = front cover + p5 JPEG only via basicCoder; DESIGN docs updated t166u; t502u: COVER ONLY rerender rules (front cover JPEG preview only via basicCoder; no full rebuild); t509u: cover series line BLACK (supersedes gold for cover series only); t166u: cover illustration fades under the series line, full width, to the bottom edge; not installed; produced by rung 2 Codex gpt-6.1-sol high; never main
 
 # DESIGN.md — Fern and the High Grapes
 Proposed picture-book design; all creative choices remain subject to Martin’s review.
@@ -138,5 +138,6 @@ Use larger/heavier type directly on the page/art over a quiet low-contrast clear
 - NO author name (Martin Schoffstall) on the front cover; author name may remain on the title/copyright page.
 - Title 50% bigger than current cover title: current build 36 pt Times-Bold → 54 pt (provisional, fit within safe area).
 - Series "Stories My Mother Read Me" (t509u supersedes t502u gold): LOWER on the cover, closer to the bottom safe margin; **BLACK**; 28 pt (+20% from the 23 pt in the delivered t502u JPEG); NO white halo, outline, cream glow, or panel box behind the lettering. Title-page series stays GOLD 19 pt (t489u).
+- Fade (Martin t166u, COVER ONLY): from just above the series line "Stories My Mother Read Me" down to the bottom edge of the cover, fade/veil the illustration across the FULL WIDTH of the page (edge to edge, through bleed) so the black series type reads clearly. It is a soft gradient in the art, not a box, panel, halo or outline around the lettering.
 - Still no "A new retelling" on the cover (t489u). "for Immy" painted in cover art stays.
 - COVER ONLY: page 5 and interior text are already OK; do not change them. No full book rebuild; preview = front cover JPEG only via basicCoder.
