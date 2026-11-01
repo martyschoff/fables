@@ -1,4 +1,4 @@
-APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); t493u: no comic bubbles on story text, larger/heavier body type; previews = front cover + p5 JPEG only via basicCoder; DESIGN docs updated t493u; not installed; produced by rung 2 Codex gpt-6.1-sol high; never main
+APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); t493u: no comic bubbles on story text, larger/heavier body type; previews = front cover + p5 JPEG only via basicCoder; DESIGN docs updated t502u; t502u: COVER ONLY rerender rules (front cover JPEG preview only via basicCoder; no full rebuild); not installed; produced by rung 2 Codex gpt-6.1-sol high; never main
 
 # DESIGN.md — Fern and the High Grapes
 Proposed picture-book design; all creative choices remain subject to Martin’s review.
@@ -81,7 +81,6 @@ Standard 32-page interior; covers are separate. Page 1 and page 32 are single pa
 | 14 | p28–29: explicit fable moral and Christian application | Broad landscape; Fern small and peaceful |
 | 15 | p30: Galatians; p31: Philippians, exact text below | Final Scripture spread; pale margins with restrained vine details |
 | — | p32: source/translation credits and brief adaptation note | Small fox footprint; no additional story ending |
-
 ## 6. Art direction
 - Warm watercolor and colored pencil, soft edges, expressive animal posture, lightly textured paper.
 - Palette: russet fox, plum grapes, sage leaves, golden grass, creek blue, warm cream.
@@ -89,7 +88,6 @@ Standard 32-page interior; covers are separate. Page 1 and page 32 are single pa
 - Establish a tall grape arbor at the vineyard edge; keep fruit height and Fern’s scale consistent throughout.
 - Reserve uncluttered text areas; keep faces, text, and essential actions clear of the gutter.
 - Avoid sinister grapes, mocking birds, injury humor, frightening teeth, magical divine light, and a final reward bunch. Grapes must never appear proven sour.
-
 ## 7. Scripture placement at end
 Final spread, pp30–31: use only these exact supplied BSB texts. Set references separately from quotations; no added verse wording, paraphrase, or ellipsis.
 - **p30 — Galatians 5:22-23 (BSB):**
@@ -116,7 +114,6 @@ Use larger/heavier type directly on the page/art over a quiet low-contrast clear
 - Preserve source archives unchanged; track the new retelling separately. Add web alt text and selectable PDF text.
 - Later checks: 32-page pagination, verbatim Scripture comparison, text fit, gutter safety, color proof, source/rights review, and Martin’s final approval.
 - Do not yet create files, code, artwork, exports, installations, purchases, deployments, or publication submissions.
-
 ## 9. Open questions with defaults
 - Age and length: default ages 4–7; retain this concise read-aloud draft.
 - Title and fox gender: default *Fern and the High Grapes*, female fox, following Riley’s pronouns.
@@ -128,10 +125,18 @@ Use larger/heavier type directly on the page/art over a quiet low-contrast clear
 
 ## Front matter and series branding (Martin t451u/t454u/t489u)
 - Series: Stories My Mother Read Me; book title "Fern and the High Grapes" stays primary everywhere.
-- FRONT COVER: title primary; author line; series line stays at the BOTTOM of the cover (t454u); NO "A new retelling" text on the front cover.
+- FRONT COVER: title only, no subtitle or author name; series LOWER at bottom in GOLD; preserve painted "for Immy"; NO "A new retelling"; follow the COVER ONLY rules below.
 - TITLE/COPYRIGHT PAGE (the page under the cover, build p1 title page): carries the moved "A new retelling of The Fox and the Grapes" line.
 - On this page, series line "Stories My Mother Read Me" moves to the BOTTOM, in GOLD, two points larger than current: 19 pt (current: 17 pt Times-Italic in a cream rounded-panel box), and NOT in a bubble/panel box.
 - Current build facts (`build/fox-grapes-kids` `fb9b46e`, `build_book.py`): cover series 18 pt in panel at bottom; p1 series 17 pt in panel near top.
 - Current build: p1 bottom line "A new retelling of The Fox and the Grapes by Martin Schoffstall. Illustrations by ..."; p3 also "A new retelling of The Fox and the Grapes" 22 pt.
 - Current `cover.jpg` art paints only "for Immy" (no retelling text); preserve Fern’s "for Immy" dedication unchanged.
 - HOLD: do NOT hand to basicCoder for rebuild until Martin says start. Docs-only push to `design/fox-grapes-kids`; never `main`.
+
+### Front cover (Martin t501u/t502u, COVER ONLY)
+- Title "Fern and the High Grapes" only; no subtitle and no other "Fern..." line on the cover.
+- NO author name (Martin Schoffstall) on the front cover; author name may remain on the title/copyright page.
+- Title 50% bigger than current cover title: current build 36 pt Times-Bold → 54 pt (provisional, fit within safe area).
+- Series "Stories My Mother Read Me": LOWER on the cover, closer to the bottom safe margin; GOLD; 20% bigger than current 18 pt → about 22 pt (21.6); NO white halo, outline, cream glow, or panel box behind the lettering.
+- Still no "A new retelling" on the cover (t489u). "for Immy" painted in cover art stays.
+- COVER ONLY: page 5 and interior text are already OK; do not change them. No full book rebuild; preview = front cover JPEG only via basicCoder.
