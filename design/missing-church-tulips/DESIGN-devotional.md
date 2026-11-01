@@ -11,10 +11,8 @@ DRAFT, NOT YET REVIEWED; not installed; produced by rung 2 Codex gpt-6.1-sol hig
 - Any church depiction remains St Thomas Church (St. Thomas UCC, Linglestown), using the main book's reference and art direction.
 
 ## 2. Text requirement before layout
-- **The Message placeholder must be replaced with Martin's full verbatim text before devotional layout begins.**
-- The summary beats in DEVOTIONAL.md are retrieval notes, not approved devotional prose. Never print or typeset the placeholder or its summary as the Message.
-- Do not reconstruct missing paragraphs, supply transitions, or infer Martin's wording.
-- Once his original is supplied, check the complete devotional against that source before setting pagination.
+- **The Message is now Martin's full verbatim text (t434u via kimberly3)** in DEVOTIONAL.md. Do not print any former placeholder. Typeset only the verbatim Message.
+- Check the complete devotional against DEVOTIONAL.md before setting pagination.
 
 ## 3. Pagination
 Default: reserve four pages, pp33–36, after the 32-page main-book block; cover remains separate. This gives a provisional 36-page interior when included in print.
@@ -25,7 +23,7 @@ Default: reserve four pages, pp33–36, after the 32-page main-book block; cover
 | pp34–35, facing spread | The Message: Flowers, Foiled Plans, and a Patient Father | Heading at the start; full verbatim Message in a single column on each page, with natural paragraph breaks. |
 | p36, left closing page | Family Discussion Questions; Closing Prayer | Three numbered questions in source order; separate prayer block below, preserving its text. |
 
-- Page assignments are provisional because the Message length is unknown.
+- Page assignments are provisional; Message length is now known from DEVOTIONAL.md.
 - If the complete text will not fit comfortably, expand the end matter and repaginate; do not shorten Martin's text or reduce type below the agreed reading size.
 - Confirm the printer's page-count and binding requirements before locking the print extent.
 - If PDF only, print retains its 32-page main block; the reading PDF continues through the devotional using the same sequence.

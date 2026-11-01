@@ -1,4 +1,4 @@
-DRAFT, NOT YET REVIEWED; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t425u, revised t434u/t437u); designer will assemble
+DRAFT, NOT YET REVIEWED; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t425u; revised t434u/t437u; Message verbatim filed 2026-11-01)
 
 # The Missing Church Tulips — Design Proposal
 
@@ -90,15 +90,15 @@ Devotional verse wording differs; see DESIGN-devotional.md. Do not silently harm
 - **Real-church permission:** UNVERIFIED; default request permission before public production using the identifiable setting.
 - **Tulip bed existence:** UNVERIFIED; default label it fictional unless Martin confirms.
 - **Mr. Davis's role:** UNVERIFIED; default fictional church volunteer who tends flowers, with no claimed real-person likeness or office. Mrs. Davis is likewise a proposed fictional volunteer who tends the tulips with him.
-- **Devotional distribution:** print and PDF, or PDF only? Default include after the main book in both, pending Martin's approval and receipt of his complete Message text.
+- **Devotional distribution:** print and PDF, or PDF only? Default include after the main book in both, pending Martin's approval; Message verbatim is on file in DEVOTIONAL.md.
 - **Devotional wording and length:** defaults and unresolved text requirements are in DESIGN-devotional.md; keep Martin's devotional verse wording pending his decision.
 
 ## 10. End matter: devotional
-Use DEVOTIONAL.md as the content source and DESIGN-devotional.md as the layout specification. Preserve Martin's text; his full verbatim Message must replace the placeholder before devotional layout begins. Four pages are provisional until that text is available.
+Use DEVOTIONAL.md as the content source and DESIGN-devotional.md as the layout specification. Preserve Martin's text; Martin's full verbatim Message is now in DEVOTIONAL.md (t434u). Do not print any former placeholder. Four pages remain provisional for pagination.
 
 | Pages after the main book | Content source and layout | Illustration beat |
 |---|---|---|
 | p33, facing p32 | DEVOTIONAL.md: title, Scripture Reading, The Big Idea; follow DESIGN-devotional.md. | Quiet cream page with a small red-tulip motif; distinct devotional opening. |
-| pp34–35, facing spread | DEVOTIONAL.md: complete verbatim Message, once supplied; follow DESIGN-devotional.md. | Restrained marginal watercolor; ample uninterrupted reading space. |
+| pp34–35, facing spread | DEVOTIONAL.md: complete verbatim Message (Martin t434u); follow DESIGN-devotional.md. Do not print any placeholder. | Restrained marginal watercolor; ample uninterrupted reading space. |
 | p36, closing page | DEVOTIONAL.md: Family Discussion Questions and Closing Prayer; follow DESIGN-devotional.md. | Small closing flower or bulb vignette; generous space around the prayer. |
 

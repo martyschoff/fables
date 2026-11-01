@@ -29,3 +29,4 @@
 - [V] Current DESIGN.md has two women: Mom (Leo's mother) and no Mrs. Davis. Mrs. Davis would be new.
 - [V] Current DESIGN.md ends with a stray broken fragment and a duplicate "Mr. Davis's role" bullet (last 2 lines); these should be dropped in the revision.
 - [V] tower2 rung 1 was skipped this turn: the last two full t2 requests hung (15 and 8 minutes), and the user interrupted the probes this turn.
+- [V-Martin] Devotional Message verbatim filed 2026-11-01 via kimberly3 (t434u full text): Flowers, Foiled Plans, and a Patient Father — replace any prior PLACEHOLDER in DEVOTIONAL.md. Do not print placeholder.

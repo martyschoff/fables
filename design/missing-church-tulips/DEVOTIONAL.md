@@ -10,13 +10,12 @@
 We cannot do a right thing by making a wrong choice. God sees our hearts, and true blessings come when we honor Him first.
 
 ## The Message: Flowers, Foiled Plans, and a Patient Father
-> PLACEHOLDER: Martin's full verbatim text was summarized in transit and is not on file. Paste Martin's original here before layout. Beats, per the dispatch summary only:
-> - Leo wanted to honor his parent, but took the tulips dishonestly.
-> - Leo thought nobody was watching; the consequence came later.
-> - Proverbs 15:3.
-> - Stolen tulips were not a true blessing.
-> - Mr. Davis showed grace: the altar, and bulbs given honestly.
-> - A good goal never justifies a dishonest choice.
+
+Imagine wanting to do something absolutely wonderful for someone you love, like your mom. You want to see her smile, give her a big hug, and hand her a beautiful gift. That is a great desire! God commands us to honor our parents, and He loves it when we show them kindness.
+But in our story, Leo forgot a very important truth: a good goal never justifies a dishonest choice.
+Leo looked at the church tulips and thought nobody was watching. He thought that because he didn't get caught right away, it meant his secret plan was working. This is exactly what the thief in the ancient fables thought, too. But just because God is patient and doesn't stop us the exact second we make a bad choice, it doesn't mean He doesn't see us. Proverbs 15:3 reminds us that God's eyes see everything.
+Leo wanted to honor his mom, but he was doing it by disrespecting God’s house and stealing the hard work of the other Sunday school children. If he had given those stolen tulips to his mom, it wouldn't have been a true blessing, because it was built on a lie.
+Mr. Davis showed Leo what God's grace looks like. He didn't just punish Leo; he helped him fix his mistake by putting the flowers on the altar. Then, he gave Leo a way to earn real tulip bulbs honestly. When we choose honesty and respect what belongs to God, He provides a way for us to bless others the right way!
 
 ## Family Discussion Questions
 1. **The "Secret" Choice** — Leo was tempted because he thought nobody was watching. How does knowing God is always with you change that?

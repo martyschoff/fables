@@ -5,7 +5,7 @@
 - Reference: references/home-church-hero-1.jpg (private art reference; tulip bed fiction unless Martin confirms)
 - Scripture (main book BSB): Gal 6:7, Prov 15:3, Rom 3:8, Ex 20:12, Ex 20:15 in SCRIPTURE.md / scripture/berea-verses.txt
 - In-story speakers (t437u): Mr. Davis quotes Ex 20:15 BSB on p21; Mrs. Davis (new fictional volunteer) quotes Prov 15:3 BSB aloud on p23
-- Devotional end matter (t434u): DEVOTIONAL.md + DESIGN-devotional.md — *Devotional: The Gift That Honors God* (pp33–36 provisional). Message section is PLACEHOLDER until Martin pastes full verbatim text.
+- Devotional end matter (t434u): DEVOTIONAL.md + DESIGN-devotional.md — *Devotional: The Gift That Honors God* (pp33–36 provisional). Message verbatim filed (Martin t434u via kimberly3); do not print any former placeholder.
 - Design: DESIGN.md (DRAFT, NOT YET REVIEWED; rung 2 Codex gpt-6.1-sol high; tower2 skipped — hung previously)
 - Copyright: © Martin Schoffstall (t430u/t431u Approved default)
 - GitHub: martyschoff/fables branch `design/missing-church-tulips` @ 08a868415ee6b9a93ed893edac0509442c1382c6
