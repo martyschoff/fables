@@ -3,7 +3,7 @@
 **NOT YET INSTALLED / proof only.** This build has not been reviewed, installed, published, or sent to a printer. The art is vector PLACEHOLDER only; the final watercolor art is not yet produced.
 
 - Design: `../DESIGN.md` (branch design/fox-grapes-kids @ 93bd8d16, approved by Martin, t424u).
-- To build: `pip install reportlab && python3 layout/build_book.py`
+- To build: `pip install reportlab` (use "reportlab<4.1" on Python 3.9), then `python layout/build_book.py`; previews were rendered with pypdfium2 at 40 dpi
 - Outputs in `exports/`:
   - `fern-print-interior-8.75sq-bleed.pdf`: 32 pages, 8.75in square (8.5in trim + 0.125in bleed, trim marks in the bleed).
   - `fern-reading-8.5sq.pdf`: 32 trimmed pages.
