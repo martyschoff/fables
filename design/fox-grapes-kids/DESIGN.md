@@ -1,4 +1,4 @@
-APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); t493u: no comic bubbles on story text, larger/heavier body type; previews = front cover + p5 JPEG only via basicCoder; DESIGN docs updated t502u; t502u: COVER ONLY rerender rules (front cover JPEG preview only via basicCoder; no full rebuild); not installed; produced by rung 2 Codex gpt-6.1-sol high; never main
+APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); t493u: no comic bubbles on story text, larger/heavier body type; previews = front cover + p5 JPEG only via basicCoder; DESIGN docs updated t509u; t502u: COVER ONLY rerender rules (front cover JPEG preview only via basicCoder; no full rebuild); t509u: cover series line BLACK (supersedes gold for cover series only); not installed; produced by rung 2 Codex gpt-6.1-sol high; never main
 
 # DESIGN.md — Fern and the High Grapes
 Proposed picture-book design; all creative choices remain subject to Martin’s review.
@@ -125,7 +125,7 @@ Use larger/heavier type directly on the page/art over a quiet low-contrast clear
 
 ## Front matter and series branding (Martin t451u/t454u/t489u)
 - Series: Stories My Mother Read Me; book title "Fern and the High Grapes" stays primary everywhere.
-- FRONT COVER: title only, no subtitle or author name; series LOWER at bottom in GOLD; preserve painted "for Immy"; NO "A new retelling"; follow the COVER ONLY rules below.
+- FRONT COVER: title only, no subtitle or author name; series LOWER at bottom in BLACK (t509u); preserve painted "for Immy"; NO "A new retelling"; follow the COVER ONLY rules below.
 - TITLE/COPYRIGHT PAGE (the page under the cover, build p1 title page): carries the moved "A new retelling of The Fox and the Grapes" line.
 - On this page, series line "Stories My Mother Read Me" moves to the BOTTOM, in GOLD, two points larger than current: 19 pt (current: 17 pt Times-Italic in a cream rounded-panel box), and NOT in a bubble/panel box.
 - Current build facts (`build/fox-grapes-kids` `fb9b46e`, `build_book.py`): cover series 18 pt in panel at bottom; p1 series 17 pt in panel near top.
@@ -137,6 +137,6 @@ Use larger/heavier type directly on the page/art over a quiet low-contrast clear
 - Title "Fern and the High Grapes" only; no subtitle and no other "Fern..." line on the cover.
 - NO author name (Martin Schoffstall) on the front cover; author name may remain on the title/copyright page.
 - Title 50% bigger than current cover title: current build 36 pt Times-Bold → 54 pt (provisional, fit within safe area).
-- Series "Stories My Mother Read Me": LOWER on the cover, closer to the bottom safe margin; GOLD; 20% bigger than t493u cover series 23 pt → 28 pt (delivered JPEG); DESIGN previously said 18→~22 pt — aligned to delivered 28 pt; NO white halo, outline, cream glow, or panel box behind the lettering.
+- Series "Stories My Mother Read Me" (t509u supersedes t502u gold): LOWER on the cover, closer to the bottom safe margin; **BLACK**; 28 pt (+20% from the 23 pt in the delivered t502u JPEG); NO white halo, outline, cream glow, or panel box behind the lettering. Title-page series stays GOLD 19 pt (t489u).
 - Still no "A new retelling" on the cover (t489u). "for Immy" painted in cover art stays.
 - COVER ONLY: page 5 and interior text are already OK; do not change them. No full book rebuild; preview = front cover JPEG only via basicCoder.
