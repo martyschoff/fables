@@ -1,4 +1,4 @@
-DRAFT, NOT YET REVIEWED; not installed; produced by rung 2 Codex gpt-6.1-sol high (Martin t418u)
+APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); DESIGN docs updated t489u; not installed; produced by rung 2 Codex gpt-6.1-sol high
 
 # DESIGN.md — Fern and the High Grapes
 Proposed picture-book design; all creative choices remain subject to Martin’s review.
@@ -65,7 +65,7 @@ Standard 32-page interior; covers are separate. Page 1 and page 32 are single pa
 | Spread # | Text / printed pages | Illustration beat |
 |---|---|---|
 | — | p1: *Fern and the High Grapes*; approved creator credits | Fern entering the vineyard; generous title space |
-| 1 | p2: copyright placeholder; p3: “A new retelling of The Fox and the Grapes” | Small vine motif; quiet view down the farm lane |
+| 1 | p2: copyright placeholder; p3: “A new retelling of The Fox and the Grapes”; p1 title/copyright page follows the final front-matter section below | Small vine motif; quiet view down the farm lane |
 | 2 | p4–5: arrival; discovery of grapes | Wide vineyard reveal; grapes visibly beyond reach |
 | 3 | p6–7: robin; first jump | Robin perched naturally; Fern gathering herself |
 | 4 | p8–9: repeated attempts | Three playful movement beats; stable vine height |
@@ -118,3 +118,13 @@ Use dark text on cream, provisionally 18–20 pt; confirm readability at print s
 - Added ending: default retain Fern’s honest reconsideration and prayer; identify these as new adaptation material in p32 credits.
 - Setting and format: default fictional Finger Lakes vineyard, square print/PDF first; web only after approval.
 - Prior LivingBooks/greaterthings conventions: **UNVERIFIED**; consult after Martin’s go before choosing implementation patterns.
+
+## Front matter and series branding (Martin t451u/t454u/t489u)
+- Series: Stories My Mother Read Me; book title "Fern and the High Grapes" stays primary everywhere.
+- FRONT COVER: title primary; author line; series line stays at the BOTTOM of the cover (t454u); NO "A new retelling" text on the front cover.
+- TITLE/COPYRIGHT PAGE (the page under the cover, build p1 title page): carries the moved "A new retelling of The Fox and the Grapes" line.
+- On this page, series line "Stories My Mother Read Me" moves to the BOTTOM, in GOLD, two points larger than current: 19 pt (current: 17 pt Times-Italic in a cream rounded-panel box), and NOT in a bubble/panel box.
+- Current build facts (`build/fox-grapes-kids` `fb9b46e`, `build_book.py`): cover series 18 pt in panel at bottom; p1 series 17 pt in panel near top.
+- Current build: p1 bottom line "A new retelling of The Fox and the Grapes by Martin Schoffstall. Illustrations by ..."; p3 also "A new retelling of The Fox and the Grapes" 22 pt.
+- Current `cover.jpg` art paints only "for Immy" (no retelling text); preserve Fern’s "for Immy" dedication unchanged.
+- HOLD: do NOT hand to basicCoder for rebuild until Martin says start. Docs-only push to `design/fox-grapes-kids`; never `main`.
