@@ -1,0 +1,26 @@
+- **p4:** Along a farm lane, Fern the fox sniffed the warm summer air.
+- **p5:** Sweet grapes hung from a vine overhead. Fern’s tummy rumbled.
+- **p6:** A robin perched beside a bunch. Fern wished she could reach it, too.
+- **p7:** She crouched low, swished her tail, and sprang. Almost!
+- **p8:** She tried from the left. She tried from the right.
+- **p9:** Up went her paws. Down came her paws. The grapes stayed high.
+- **p10:** Fern backed up for one enormous jump.
+- **p11:** Whoosh! Her nose brushed a leaf. Plop! She landed in the grass.
+- **p12:** Fern sat down, puffing. She was tired, hungry, and disappointed.
+- **p13:** Above her, the grapes glowed purple in the sun.
+- **p14:** “They must be sour,” she grumbled. “I wouldn’t want them anyway.”
+- **p15:** She turned away with her nose in the air.
+- **p16:** But after a few steps, Fern stopped.
+- **p17:** She had not tasted even one grape. How could she know?
+- **p18:** “I wanted them,” she admitted. “I’m upset because I can’t reach them.”
+- **p19:** She let out a long, slow breath.
+- **p20:** “God, please help me tell the truth and be thankful.”
+- **p21:** The grapes still hung high. Fern’s tummy still rumbled.
+- **p22:** She could be disappointed without saying something unkind.
+- **p23:** “You may be perfectly good grapes,” she said.
+- **p24:** “I just can’t reach you today.”
+- **p25:** Fern padded to the shady creek and took a cool drink.
+- **p26:** Then she rested her tired paws beneath a willow.
+- **p27:** Soon she would look for supper. For now, she could leave the grapes in peace.
+- **p28:** When we cannot have something, calling it bad does not make us truthful.
+- **p29:** With God’s help, we can practice self-control and learn contentment.
