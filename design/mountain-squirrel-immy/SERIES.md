@@ -12,3 +12,4 @@
 - Add "Stories My Mother Read Me" as a line at the BOTTOM of Fern's cover (title primary above), plus title page and spine as appropriate.
 - Book title stays "Fern and the High Grapes". Keep © Martin Schoffstall and the diagonal upper-left "for Immy" (Fern only).
 - Series numbering/order on spines: open question for Martin (default: order above, unnumbered).
+- Fern t489u (HOLD until Martin says start): no "A new retelling" on the front cover (moved to the title/copyright page); on that page the series line sits at the BOTTOM in GOLD, 19 pt (+2), no bubble box. Cover series stays at the bottom (t454u).
