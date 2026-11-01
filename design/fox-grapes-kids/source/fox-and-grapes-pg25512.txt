@@ -1,0 +1,28 @@
+# Source: martyschoff/fables @ 0cdf759a3b5bce9db20c430808f5acfa0c679f83, gutenberg-25512/pg25512.txt (sha256 e9546c61...4460d4)
+# PG eBook #25512, The Fables of Phaedrus. Verbatim excerpts.
+
+## Riley prose translation, Book IV Fable III (lines 2307-2317)
+FABLE III.
+
+THE FOX AND THE GRAPES.
+
+Urged by hunger, a Fox, leaping with all her might, tried to reach a
+cluster of Grapes upon a lofty vine. When {she found} she could not
+reach them, she left them, saying: "They are not ripe yet; I don't like
+to eat them while sour."
+
+Those who disparage what they cannot perform, ought to apply this lesson
+to themselves.
+
+## Smart verse translation, Book IV Fable II (lines 6373-6383)
+II. THE FOX AND THE GRAPES.
+
+  An hungry Fox with fierce attack
+  Sprang on a Vine, but tumbled back,
+  Nor could attain the point in view,
+  So near the sky the bunches grew.
+  As he went off, "They're scurvy stuff,"
+  Says he, "and not half ripe enough--
+  And I've more rev'rence for my tripes
+  Than to torment them with the gripes."
+    For those this tale is very pat
