@@ -1,4 +1,4 @@
-APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); DESIGN docs updated t489u; not installed; produced by rung 2 Codex gpt-6.1-sol high
+APPROVED (Martin t424u); HOLD layout/art edits until Martin says start (t489u); t493u: no comic bubbles on story text, larger/heavier body type; previews = front cover + p5 JPEG only via basicCoder; DESIGN docs updated t493u; not installed; produced by rung 2 Codex gpt-6.1-sol high; never main
 
 # DESIGN.md — Fern and the High Grapes
 Proposed picture-book design; all creative choices remain subject to Martin’s review.
@@ -100,7 +100,14 @@ Final spread, pp30–31: use only these exact supplied BSB texts. Set references
 
 > I am not saying this out of need, for I have learned to be content regardless of my circumstances. I know how to live humbly, and I know how to abound. In any and every situation I have learned the secret of being filled and being hungry, of having plenty and having need.
 
-Use dark text on cream, provisionally 18–20 pt; confirm readability at print size. Sources supplied in FACTS: [Galatians](https://biblehub.com/bsb/galatians/5.htm), [Philippians](https://biblehub.com/bsb/philippians/4.htm). FACTS reports BSB’s public-domain dedication.
+Use larger/heavier type directly on the page/art over a quiet low-contrast clear area or soft fade, provisionally 24 pt bold-weight serif (e.g. Times-Bold), leading about 1.3; **UNVERIFIED** provisional bump; basicCoder confirms readability at print size. No comic bubbles, balloons, speech panels, or rounded cream panel boxes. Sources supplied in FACTS: [Galatians](https://biblehub.com/bsb/galatians/5.htm), [Philippians](https://biblehub.com/bsb/philippians/4.htm). FACTS reports BSB’s public-domain dedication.
+
+## Story text treatment (Martin t493u)
+- Story/body text must NOT appear in comic bubbles, balloons, speech panels, or rounded cream panel boxes; set it directly on the page/art with a quiet low-contrast clear area or soft fade in the art for legibility.
+- Current build fact (build_book.py fb9b46e): story text is 20 pt Times-Roman inside a cream rounded-panel box (panel=True).
+- New target: larger and heavier — provisional 24 pt bold-weight serif (e.g. Times-Bold), leading about 1.3; UNVERIFIED provisional bump, basicCoder confirms readability at print size.
+- Previews for Martin: re-render ONLY the front cover and page 5 as JPEG previews; no full-book rebuild required for t493u previews.
+- t489u rules still hold (retelling off cover; title-page series GOLD 19 pt no bubble at bottom; cover series bottom per t454u). Full rebuild still waits for Martin's start.
 
 ## 8. Production notes for later basicCoder, gated on Martin’s go
 - After approval: develop an 8.5-inch square print interior and separate cover, a reading PDF, and an optional accessible web reader.
