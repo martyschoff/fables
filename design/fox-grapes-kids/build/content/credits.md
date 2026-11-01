@@ -1,4 +1,5 @@
 Fern and the High Grapes
+Text copyright © 2026 Martin Schoffstall. Dedication: for Immy.
 A new retelling of The Fox and the Grapes.
 
 Source: "The Fox and the Grapes," The Fables of Phaedrus, Book IV, translated by Henry T. Riley and Christopher Smart (Project Gutenberg eBook #25512), archived at github.com/martyschoff/fables.

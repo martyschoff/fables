@@ -41,7 +41,49 @@ SPREAD_BEATS = {1: "quiet farm lane", 2: "vineyard reveal; grapes out of reach",
 
 def spread_of(p): return None if p in (1, 32) else p // 2
 
+ART = ROOT / "art"   # designer drop: cover.*, title.*, spread-01..15.* (png/jpg/tif)
+HOLDER = "Martin Schoffstall"   # Martin t429u/t430u: exact copyright string
+
+def art_file(name):
+    for ext in (".png", ".jpg", ".jpeg", ".tif", ".tiff"):
+        f = ART / (name + ext)
+        if f.exists(): return f
+    return None
+
+def slot_for(p):
+    """(slot name, is_right_page) for an art slot, or None for page 32."""
+    if p == 1: return ("title", None)
+    if p == 32: return None
+    s = p // 2; return (f"spread-{s:02d}", p % 2 == 1)
+
+def draw_real_art(c, p, ox, oy):
+    """Place the designer's watercolor if it exists. Spreads are 2:1 images covering both pages plus bleed."""
+    sl = slot_for(p)
+    f = art_file(sl[0]) if sl else None
+    if not f: return False
+    c.saveState(); pth = c.beginPath()
+    pth.rect(ox - BLEED, oy - BLEED, TRIM + 2 * BLEED, TRIM + 2 * BLEED); c.clipPath(pth, stroke=0, fill=0)
+    if sl[1] is None:   # single page (title)
+        c.drawImage(str(f), ox - BLEED, oy - BLEED, TRIM + 2 * BLEED, TRIM + 2 * BLEED)
+    else:
+        x = ox - BLEED - (TRIM if sl[1] else 0)
+        c.drawImage(str(f), x, oy - BLEED, 2 * TRIM + 2 * BLEED, TRIM + 2 * BLEED)
+    c.restoreState(); return True
+
+def dedication(c, ox, oy):
+    """'for Immy': diagonal text in the upper-left corner, inside the safe margin."""
+    c.saveState(); c.translate(ox + SAFE + 0.15 * inch, oy + TRIM - SAFE - 0.55 * inch); c.rotate(35)
+    c.setFont("Times-Italic", 22); c.setFillColor(INK); c.drawString(0, 0, "for Immy"); c.restoreState()
+
+MISSING = []
+
 def art(c, p, ox, oy):
+    if draw_real_art(c, p, ox, oy): return
+    sl = slot_for(p)
+    if sl and sl[0] not in MISSING: MISSING.append(sl[0])
+    placeholder_art(c, p, ox, oy)
+
+def placeholder_art(c, p, ox, oy):
     """Watercolor-like placeholder: translucent washes. Same arbor height every page."""
     rnd = random.Random(p)
     c.saveState()
@@ -76,7 +118,7 @@ def art(c, p, ox, oy):
     c.setFont("Helvetica", 7); c.setFillColor(Color(.4, .4, .4))
     s = spread_of(p)
     c.drawRightString(ox + TRIM - SAFE, oy + TRIM - SAFE + 14,
-                      f"ART PLACEHOLDER: spread {s}: {SPREAD_BEATS.get(s, 'title')}" if s else "ART PLACEHOLDER")
+                      f"ART SLOT art/spread-{s:02d}.png (PLACEHOLDER): {SPREAD_BEATS.get(s)}" if s else "ART SLOT art/title.png (PLACEHOLDER)")
     c.restoreState()
 
 def text_block(c, ox, oy, text, size=20, top=None, font="Times-Roman", panel=True):
@@ -91,9 +133,11 @@ def page(c, p, ox, oy, S, V, credits):
     art(c, p, ox, oy)
     if p == 1:
         text_block(c, ox, oy, "Fern and the High Grapes", 34, top=TRIM - SAFE, font="Times-Bold")
-        text_block(c, ox, oy, "A new retelling of The Fox and the Grapes", 16, font="Times-Italic")
+        text_block(c, ox, oy, f"A new retelling of The Fox and the Grapes by {HOLDER}. Illustrated by {illustrator()}.", 16, font="Times-Italic")
+        dedication(c, ox, oy)
     elif p == 2:
-        text_block(c, ox, oy, "Copyright \u00a9 2026 [COPYRIGHT HOLDER PLACEHOLDER]. All rights reserved. "
+        text_block(c, ox, oy, f"for Immy. Text copyright \u00a9 2026 {HOLDER}. All rights reserved. "
+                   f"Illustrations: {illustrator()}. "
                    "Scripture quotations: Berean Standard Bible (public domain).", 11, top=TRIM / 2, panel=False)
     elif p == 3:
         text_block(c, ox, oy, "A new retelling of The Fox and the Grapes", 22, top=TRIM * .4, font="Times-Italic")
@@ -108,6 +152,27 @@ def page(c, p, ox, oy, S, V, credits):
     if p not in (1,):
         c.setFont("Times-Roman", 9); c.setFillColor(INK)
         c.drawCentredString(ox + TRIM / 2, oy + 0.28 * inch, str(p))
+
+def illustrator():
+    """Illustration credit from art/CREDITS.md first line 'Illustrator: NAME'; pending until the designer delivers."""
+    f = ART / "CREDITS.md"
+    if f.exists():
+        for ln in f.read_text(encoding="utf-8").splitlines():
+            if ln.lower().startswith("illustrator:"): return ln.split(":", 1)[1].strip()
+    return "[illustrator credit pending]"
+
+def cover(out):
+    """Front cover, 8.5in square plus bleed. Uses art/cover.* when it exists; otherwise a placeholder."""
+    c = canvas.Canvas(str(out / "fern-cover-front-8.75sq-bleed.pdf"), pagesize=(TRIM + 2 * BLEED,) * 2)
+    c.setTitle("Fern and the High Grapes (cover)"); ox = oy = BLEED; f = art_file("cover")
+    if f: c.drawImage(str(f), 0, 0, TRIM + 2 * BLEED, TRIM + 2 * BLEED)
+    else:
+        placeholder_art(c, 3, ox, oy); MISSING.insert(0, "cover")
+        c.setFont("Helvetica", 7); c.drawRightString(ox + TRIM - SAFE, oy + SAFE - 14, "ART SLOT art/cover.png (PLACEHOLDER)")
+    text_block(c, ox, oy, "Fern and the High Grapes", 36, top=TRIM - (2.0 if f else 0.9) * inch, font="Times-Bold")
+    text_block(c, ox, oy, HOLDER, 18, font="Times-Roman")
+    if not f: dedication(c, ox, oy)   # designer cover art already paints "for Immy" upper-left; don't double it
+    marks(c); c.save()
 
 def marks(c):
     c.setStrokeColor(Color(0, 0, 0)); c.setLineWidth(.25); b, t = BLEED, BLEED + TRIM; L = 0.1 * inch
@@ -134,6 +199,7 @@ def build():
         if len(sh) == 1: page(sp, sh[0], TRIM / 2, 0, S, V, credits)
         else: page(sp, sh[0], 0, 0, S, V, credits); page(sp, sh[1], TRIM, 0, S, V, credits)
         sp.showPage()
-    sp.save(); print("pages=32 spreads=15 sheets=", len(sheets))
+    sp.save(); cover(out)
+    print("pages=32 spreads=15 sheets=", len(sheets)); print("missing art slots:", ",".join(MISSING) or "none")
 
 if __name__ == "__main__": build()
