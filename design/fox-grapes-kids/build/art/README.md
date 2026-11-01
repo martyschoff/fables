@@ -1,7 +1,8 @@
-# Art slots (designer drop)
-Drop the designer's watercolor files here, then run `python layout/build_book.py`.
-- `cover.png`: front cover, 8.75x8.75in (8.5in plus 0.125in bleed), 300 ppi = 2625x2625 px.
-- `title.png`: p1, same size as the cover. "for Immy" is set as text by the layout; do not bake it into the art.
-- `spread-01.png` to `spread-15.png`: 17.25x8.75in (2:1 plus bleed), 300 ppi = 5175x2625 px. The left half is the even page.
-- `CREDITS.md`: a line `Illustrator: NAME` sets the illustration credit on p1 and p2.
-The .jpg, .jpeg, .tif and .tiff extensions are also accepted. Any missing slot falls back to a labelled vector PLACEHOLDER.
+# Art: Fern and the High Grapes (designer drop, Martin t428u–t438u)
+All illustrations are © Martin Schoffstall (see CREDITS.md and ART-INDEX.md). "for Immy" is painted into cover.jpg and title-dedication.jpg, so the layout does not typeset it again wherever that art exists.
+- Masters (reading PDFs): cover.jpg and title-dedication.jpg are 1024x1024; spread-01..15.jpg are 1280x720 (16:9).
+- Print (print interior and cover PDFs): print/*-print300.jpg are JPEG q92 conversions of the designer's LANCZOS *-print300.png files (2625 square; spreads 5250x2625). The PNGs (232 MB) are not committed.
+- Fit: each 16:9 spread fills the 2:1 spread plus bleed at full width, center-cropped top and bottom (about 4.5% each side; the print300 files are pre-cropped to 2:1). Each page shows its half of the spread; nothing is letterboxed.
+- PPI: about 300 nominal in print, but these are SOFT Lanczos upscales from about 74 ppi effective (spreads) and about 117 ppi (cover and title), not optical 300 ppi.
+- Slots: cover, title (or title-dedication), spread-01..15; .png/.jpg/.tif; print/<slot>-print300.* is preferred for print.
+- Series: "Stories My Mother Read Me" (t451u/t454u) sits at the BOTTOM of the front cover, under the author line, and above the title on the p1 title page. The book title stays primary.
