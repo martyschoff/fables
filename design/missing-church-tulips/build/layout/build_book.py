@@ -15,6 +15,7 @@ from reportlab.lib.utils import simpleSplit
 BUILD = pathlib.Path(__file__).resolve().parent.parent
 DESIGN = BUILD.parent
 ART = BUILD / "art"
+SERIES = "Stories My Mother Read Me"  # Martin t451u
 TITLE, HOLDER, YEAR = "The Missing Church Tulips", "Martin Schoffstall", 2026
 TRIM, BLEED, SAFE = 8.5 * inch, 0.125 * inch, 0.5 * inch
 CREAM = Color(.98, .95, .88); INK = Color(.18, .14, .12)
@@ -137,10 +138,11 @@ def page(c, p, ox, oy, S, D):
     art(c, p, ox, oy)
     dtitle, sec = D
     if p == 1:
-        text_block(c, ox, oy, TITLE, 36, top=TRIM - SAFE, font="Times-Bold")
+        y = text_block(c, ox, oy, SERIES, 16, top=TRIM - SAFE, font="Times-Italic")
+        text_block(c, ox, oy, TITLE, 36, top=y - 8, font="Times-Bold")
         text_block(c, ox, oy, f"by {HOLDER}", 18, font="Times-Italic")
     elif p == 2:
-        text_block(c, ox, oy, f"Text copyright \u00a9 {YEAR} {HOLDER}. All rights reserved. Written by {HOLDER}. "
+        text_block(c, ox, oy, f"Text copyright \u00a9 {YEAR} {HOLDER}. All rights reserved. {SERIES}. Written by {HOLDER}. "
                    f"Illustrated by {illustrator()}.\nScripture quotations are from the Berean Standard Bible (BSB), public domain: "
                    "Exodus 20:15 (p21) and Proverbs 15:3 (p23).\nSet near St. Thomas United Church of Christ, Linglestown, Pennsylvania. "
                    "Story, characters, and the church tulip bed are fiction.", 11, top=TRIM / 2 + 0.6 * inch, panel=False)
@@ -187,14 +189,15 @@ def cover(out):
     if f: c.drawImage(str(f), 0, 0, TRIM + 2 * BLEED, TRIM + 2 * BLEED)
     else:
         placeholder(c, 3, BLEED, BLEED); MISSING.insert(0, "cover")
-    text_block(c, BLEED, BLEED, TITLE, 38, top=TRIM - 0.9 * inch, font="Times-Bold")
+    y = text_block(c, BLEED, BLEED, SERIES, 18, top=TRIM - 0.6 * inch, font="Times-Italic")
+    text_block(c, BLEED, BLEED, TITLE, 38, top=y - 8, font="Times-Bold")
     text_block(c, BLEED, BLEED, HOLDER, 18)
     marks(c); c.save()
 
 def build():
     S, D = main_text(), devotional(); scripture_check(S)
     out = BUILD / "exports"; out.mkdir(exist_ok=True)
-    meta = lambda c: (c.setTitle(TITLE), c.setAuthor(HOLDER), c.setSubject("DRAFT proof, NOT YET INSTALLED; placeholder art"))
+    meta = lambda c: (c.setTitle(f"{SERIES}: {TITLE}"), c.setAuthor(HOLDER), c.setSubject("DRAFT proof, NOT YET INSTALLED; placeholder art"))
     pr = canvas.Canvas(str(out / "tulips-print-interior-8.75sq-bleed.pdf"), pagesize=(TRIM + 2 * BLEED,) * 2); meta(pr)
     rd = canvas.Canvas(str(out / "tulips-reading-8.5sq.pdf"), pagesize=(TRIM, TRIM)); meta(rd)
     for p in range(1, PAGES + 1):

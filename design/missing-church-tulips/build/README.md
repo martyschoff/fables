@@ -1,4 +1,4 @@
-# The Missing Church Tulips: build (DRAFT, NOT YET INSTALLED)
+# Stories My Mother Read Me — The Missing Church Tulips: build (DRAFT, NOT YET INSTALLED)
 
 Martin t444u APPROVED the design. Layout uses the Fern pipeline (reportlab). Under Martin's t445u rule, any model work is local or OpenAI only.
 
